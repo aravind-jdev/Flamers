@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://flamers.vercel.app")
+@CrossOrigin(origins = "https://flamers.aravindg.me")
 public class FlamesController {
 
     @Autowired
