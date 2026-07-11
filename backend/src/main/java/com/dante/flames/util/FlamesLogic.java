@@ -68,7 +68,7 @@ public class FlamesLogic {
                     return "Friends";
                 }
                 case 'L' -> {
-                    return "Lovers";
+                    return "Love";
                 }
                 case 'A' -> {
                     return "Affection";

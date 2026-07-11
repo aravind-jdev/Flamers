@@ -1,4 +1,6 @@
-const API_URL = "https://flamers-backend.onrender.com/api/relationship";
+const API_URL = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+  ? "http://localhost:8080/api/relationship"
+  : "https://flamers-backend.onrender.com/api/relationship";
 let currentMode = "classic";
 
 const music = document.getElementById("themeMusic");
